@@ -14,7 +14,7 @@ const USER_CONFIG = {
   APP_SECRET: '607b23b071ebd200f93ad13efea3cf47',
 
   PROVINCE: '安徽',
-  CITY: '休宁',
+  CITY: '黄山',
 
   USERS: [
     {
@@ -33,7 +33,7 @@ const USER_CONFIG = {
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '小霓', year: '1999', date: '11-30',
+          type: '生日', name: '小潘', year: '2000', date: '07-27',
         },
         {
           type: '节日', name: '相识纪念日', year: '2021', date: '01-31',
@@ -55,7 +55,7 @@ const USER_CONFIG = {
 
   CALLBACK_USERS: [
     {
-      name: '自己',
+      name: '帅潘',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oLdwL65J8sIe94k-84bdehHmj0zU',
     }
